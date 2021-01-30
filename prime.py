@@ -7,9 +7,9 @@ def is_prime(number):
     return 0
 
 def sort_divisions(number):#約数列挙
-    i = 2
+    i = 1
     front, back = [],[]
-    for i*i <= number:
+    while i*i <= number:
         if number%i==0:
             front.append(i)
             if i!=number//i: back.append(number//i)

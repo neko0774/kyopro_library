@@ -11,3 +11,9 @@ def ceil(x,y):
         return x//y
     else:
         return x//y+1
+
+def floor(x,y):
+    if x%y==0:
+        return x//y
+    else:
+        return x//y-1
